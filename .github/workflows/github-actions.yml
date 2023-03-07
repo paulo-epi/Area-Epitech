@@ -1,0 +1,13 @@
+# name: Run Web Workflow
+
+# on: [push]
+
+# jobs:
+#   run-web-workflow:
+#     runs-on: windows-latest
+
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v3
+#       - name: Run web workflow
+#         run: cd Web && .github/workflows/github-actions.yml

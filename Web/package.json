@@ -1,0 +1,87 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/login",
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@leecheuk/react-google-login": "^5.4.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-router-dom": "^5.3.3",
+    "antd": "^5.1.5",
+    "assert": "^2.0.0",
+    "axios": "^1.2.2",
+    "bootstrap": "^4.6.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "cypress": "^12.3.0",
+    "formik": "^2.2.9",
+    "gapi-script": "^1.2.0",
+    "gaxios": "^5.0.2",
+    "gh-pages": "^4.0.0",
+    "google-auth-library": "^8.7.0",
+    "https": "^1.0.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "querystring-es3": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-login-github": "^1.0.8",
+    "react-microsoft-login": "^2.0.1",
+    "react-router-dom": "^6.6.2",
+    "react-scripts": "^5.0.1",
+    "recoil": "^0.7.6",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "styled-components": "^5.3.6",
+    "typescript": "^4.9.4",
+    "url": "^0.11.0",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start_docker": "export PORT=8081 && react-scripts start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "cypress run",
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:record": "cypress run --record --key",
+    "deploy": "yarn run build && gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/node": "^18.14.6",
+    "@types/styled-components": "^5.1.26",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}

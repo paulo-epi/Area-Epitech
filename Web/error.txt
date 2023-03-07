@@ -1,0 +1,335 @@
+Compiled with problems:
+
+ERROR in ./node_modules/gaxios/build/src/gaxios.js 25:16-32
+
+Module not found: Error: Can't resolve 'https' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/gaxios/build/src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "https": require.resolve("https-browserify") }'
+	- install 'https-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "https": false }
+
+
+ERROR in ./node_modules/gaxios/build/src/gaxios.js 27:38-60
+
+Module not found: Error: Can't resolve 'querystring' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/gaxios/build/src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "querystring": require.resolve("querystring-es3") }'
+	- install 'querystring-es3'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "querystring": false }
+
+
+ERROR in ./node_modules/gaxios/build/src/gaxios.js 29:14-28
+
+Module not found: Error: Can't resolve 'url' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/gaxios/build/src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "url": require.resolve("url/") }'
+	- install 'url'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "url": false }
+
+
+ERROR in ./node_modules/gcp-metadata/build/src/gcp-residency.js 22:13-26
+
+Module not found: Error: Can't resolve 'fs' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/gcp-metadata/build/src'
+
+
+ERROR in ./node_modules/gcp-metadata/build/src/gcp-residency.js 23:13-26
+
+Module not found: Error: Can't resolve 'os' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/gcp-metadata/build/src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "os": require.resolve("os-browserify/browser") }'
+	- install 'os-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "os": false }
+
+
+ERROR in ./node_modules/google-auth-library/build/src/auth/baseexternalclient.js 20:15-32
+
+Module not found: Error: Can't resolve 'stream' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/google-auth-library/build/src/auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+
+
+ERROR in ./node_modules/google-auth-library/build/src/auth/downscopedclient.js 20:15-32
+
+Module not found: Error: Can't resolve 'stream' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/google-auth-library/build/src/auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+
+
+ERROR in ./node_modules/google-auth-library/build/src/auth/googleauth.js 20:24-48
+
+Module not found: Error: Can't resolve 'child_process' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/google-auth-library/build/src/auth'
+
+
+ERROR in ./node_modules/google-auth-library/build/src/auth/googleauth.js 21:11-24
+
+Module not found: Error: Can't resolve 'fs' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/google-auth-library/build/src/auth'
+
+
+ERROR in ./node_modules/google-auth-library/build/src/auth/googleauth.js 23:11-24
+
+Module not found: Error: Can't resolve 'os' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/google-auth-library/build/src/auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "os": require.resolve("os-browserify/browser") }'
+	- install 'os-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "os": false }
+
+
+ERROR in ./node_modules/google-auth-library/build/src/auth/googleauth.js 24:13-28
+
+Module not found: Error: Can't resolve 'path' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/google-auth-library/build/src/auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "path": require.resolve("path-browserify") }'
+	- install 'path-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "path": false }
+
+
+ERROR in ./node_modules/google-auth-library/build/src/auth/identitypoolclient.js 21:11-24
+
+Module not found: Error: Can't resolve 'fs' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/google-auth-library/build/src/auth'
+
+
+ERROR in ./node_modules/google-auth-library/build/src/auth/oauth2client.js 21:20-42
+
+Module not found: Error: Can't resolve 'querystring' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/google-auth-library/build/src/auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "querystring": require.resolve("querystring-es3") }'
+	- install 'querystring-es3'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "querystring": false }
+
+
+ERROR in ./node_modules/google-auth-library/build/src/auth/oauth2client.js 22:15-32
+
+Module not found: Error: Can't resolve 'stream' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/google-auth-library/build/src/auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+
+
+ERROR in ./node_modules/google-auth-library/build/src/auth/oauth2common.js 20:20-42
+
+Module not found: Error: Can't resolve 'querystring' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/google-auth-library/build/src/auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "querystring": require.resolve("querystring-es3") }'
+	- install 'querystring-es3'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "querystring": false }
+
+
+ERROR in ./node_modules/google-auth-library/build/src/auth/pluggable-auth-handler.js 22:21-45
+
+Module not found: Error: Can't resolve 'child_process' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/google-auth-library/build/src/auth'
+
+
+ERROR in ./node_modules/google-auth-library/build/src/auth/pluggable-auth-handler.js 23:11-24
+
+Module not found: Error: Can't resolve 'fs' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/google-auth-library/build/src/auth'
+
+
+ERROR in ./node_modules/google-auth-library/build/src/auth/stscredentials.js 21:20-42
+
+Module not found: Error: Can't resolve 'querystring' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/google-auth-library/build/src/auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "querystring": require.resolve("querystring-es3") }'
+	- install 'querystring-es3'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "querystring": false }
+
+
+ERROR in ./node_modules/google-auth-library/build/src/crypto/node/crypto.js 20:15-32
+
+Module not found: Error: Can't resolve 'crypto' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/google-auth-library/build/src/crypto/node'
+Did you mean './crypto'?
+Requests that should resolve in the current directory need to start with './'.
+Requests that start with a name are treated as module requests and resolve within module directories (node_modules, /home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules).
+If changing the source code is not an option there is also a resolve options called 'preferRelative' which tries to resolve these kind of requests in the current directory too.
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+	- install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "crypto": false }
+
+
+ERROR in ./node_modules/google-p12-pem/build/src/index.js 13:11-24
+
+Module not found: Error: Can't resolve 'fs' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/google-p12-pem/build/src'
+
+
+ERROR in ./node_modules/gtoken/build/src/index.js 13:11-24
+
+Module not found: Error: Can't resolve 'fs' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/gtoken/build/src'
+
+
+ERROR in ./node_modules/gtoken/build/src/index.js 16:13-28
+
+Module not found: Error: Can't resolve 'path' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/gtoken/build/src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "path": require.resolve("path-browserify") }'
+	- install 'path-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "path": false }
+
+
+ERROR in ./node_modules/https-proxy-agent/dist/agent.js 38:30-44
+
+Module not found: Error: Can't resolve 'net' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/https-proxy-agent/dist'
+
+
+ERROR in ./node_modules/https-proxy-agent/dist/agent.js 39:30-44
+
+Module not found: Error: Can't resolve 'tls' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/https-proxy-agent/dist'
+
+
+ERROR in ./node_modules/https-proxy-agent/dist/agent.js 40:30-44
+
+Module not found: Error: Can't resolve 'url' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/https-proxy-agent/dist'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "url": require.resolve("url/") }'
+	- install 'url'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "url": false }
+
+
+ERROR in ./node_modules/https-proxy-agent/dist/agent.js 41:33-50
+
+Module not found: Error: Can't resolve 'assert' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/https-proxy-agent/dist'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "assert": require.resolve("assert/") }'
+	- install 'assert'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "assert": false }
+
+
+ERROR in ./node_modules/jwa/index.js 3:13-30
+
+Module not found: Error: Can't resolve 'crypto' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/jwa'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+	- install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "crypto": false }
+
+
+ERROR in ./node_modules/jws/lib/data-stream.js 3:13-30
+
+Module not found: Error: Can't resolve 'stream' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/jws/lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+
+
+ERROR in ./node_modules/jws/lib/sign-stream.js 5:13-30
+
+Module not found: Error: Can't resolve 'stream' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/jws/lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+
+
+ERROR in ./node_modules/jws/lib/verify-stream.js 5:13-30
+
+Module not found: Error: Can't resolve 'stream' in '/home/nmarius/delivery/Epitech/Troisième_année/B-DEV/B-DEV-500-NCY-5-2-area-chloe.lere/Web/node_modules/jws/lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+

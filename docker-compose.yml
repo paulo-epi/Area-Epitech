@@ -1,0 +1,42 @@
+version: "3.9"
+services:
+  db:
+    image: mariadb
+    environment:
+      MYSQL_USER: area_api
+      MYSQL_PASSWORD: 1234
+      MYSQL_ROOT_USER: area
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: area_ccmp
+    volumes:
+      - "./database.sql:/docker-entrypoint-initdb.d/database.sql"
+    ports:
+      - "32000:3306"
+  server:
+    build: ApplicationServer/
+    ports:
+      - "8080:8080"
+    links:
+      - db
+    depends_on:
+      - db
+    restart: on-failure
+  mobile_client:
+    build: Mobile/
+    ports:
+      - "8082:8081"
+    links:
+      - db
+    depends_on:
+      - db
+  web_client:
+    build: Web/
+    ports:
+      - "8081:8081"
+    links:
+      - db
+    depends_on:
+      - db
+
+volumes:
+  area_client:

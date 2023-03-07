@@ -1,0 +1,5 @@
+host=db
+username=area_api
+password=1234
+database=area_ccmp
+token_key=visclo_le_bg

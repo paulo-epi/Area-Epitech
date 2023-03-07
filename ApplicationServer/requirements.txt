@@ -1,0 +1,12 @@
+flask
+pyjwt
+mysql-connector-python
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+google.auth
+flask-cors
+PyGithub
+python-dateutil
+discord
+msal
